@@ -739,9 +739,6 @@ ul.social-buttons li a {
   background-color: #212529;
 }
 
-ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
-  background-color: #fed136;
-}
 
 .hero .hero-img {
   padding: 0 20px 0 0;
@@ -810,4 +807,3 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   background-attachment: fixed;
   padding: 50px 0;
 }
-
