@@ -1238,7 +1238,33 @@ span, a, a:hover {
 	}
 
 }
+@mixin ResetLink(){
+    color: inherit;
+    text-decoration: none;
+}
+.action{
+    @include ResetLink();
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    transition: 150ms ease-in-out;
+    transform: translateY(0);
 
+    &:hover{
+        transform: translateY(-1rem);
+        //color: $color-primary;
+    }
+
+    i {
+        font-size: 2rem;
+    }
+
+    span {
+        margin-top: 1rem;
+        font-size: 1.8rem;
+        font-weight: 300;
+    }
+}
 
 
 

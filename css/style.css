@@ -288,7 +288,11 @@ span, a, a:hover {
   opacity: 1;
   font-weight: 900;
 }
-
+@media only screen and (max-width: 768px) {
+  .cd-headline {
+    font-size: 2rem;
+  }
+}
 .owl-theme .owl-dots .owl-dot span {
   width: 8px;
   height: 8px;
@@ -949,6 +953,8 @@ span, a, a:hover {
 }
 .skills img {
   width: 75%;
+  -webkit-transition: width 2s; /* Safari */
+  transition: width 2s;
 }
 #skills-2{
   padding-top: 123px;
@@ -959,4 +965,15 @@ span, a, a:hover {
     padding-top: 0px;
     padding-left: 15px;
   }
+}
+.action {
+  transition: 150ms ease-in-out;
+  -webkit-transform: translateY(0);
+          transform: translateY(0); }
+  .action:hover {
+    -webkit-transform: translateY(-0.5rem);
+            transform: translateY(-0.5rem); }
+  
+  
+
 /*# sourceMappingURL=style.css.map */
